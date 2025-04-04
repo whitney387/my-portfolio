@@ -24,6 +24,14 @@ export default function App() {
             <Route path="/Interests" element={<Interests />} />
             <Route path="/ContactMe" element={<ContactMe />} />
           </Routes>
+          <a
+            href="https://www.canva.com/design/DAGgJbmySAY/fcAZ2fIREc6EQaNxIzrlSQ/edit?utm_content=DAGgJbmySAY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            class="btn btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View My CV
+          </a>
           <footer>
             <p className="text-center text-dark">
               This code is open-sourced in{" "}
