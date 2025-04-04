@@ -36,7 +36,8 @@ export default function App() {
             <p className="text-center text-dark">
               This code is open-sourced in{" "}
               <a href="https://github.com/whitney387/my-portfolio">github</a>{" "}
-              and hosted on <a href="/">Netlify</a>
+              and hosted on{" "}
+              <a href="https://this-portfolios.netlify.app/">Netlify</a>
             </p>
           </footer>
         </div>
