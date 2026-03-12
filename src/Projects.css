@@ -1,0 +1,83 @@
+/* Projects.css */
+
+#projects h2 {
+  font-size: 2.5rem;
+  color: #343a40; /* Dark Slate */
+  position: relative;
+  padding-bottom: 15px;
+}
+
+#projects h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #f8cdda; /* Soft Rose accent */
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+.project-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(13, 110, 253, 0.15);
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.tech-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(13, 110, 253, 0.9); /* Electric Blue */
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  backdrop-filter: blur(4px);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  color: #343a40;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #343a40;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}

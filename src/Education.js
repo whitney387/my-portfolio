@@ -1,27 +1,41 @@
+import "./Education.css";
+
 export default function Education() {
   return (
-    <div>
-      <section id="education" class="container py-5">
-        <h2>Education</h2>
-        <ul>
-          <li>
-            <strong>Bachelor's in Economics (2023 - Present)</strong> -
-            University of XYZ
-          </li>
-          <li>
-            <strong>Web Development Course (2024)</strong> - SheCodes
-          </li>
-          <li>
-            <strong>AI Tools and Creativity (2024)</strong> - ALX
-          </li>
-          <li>
-            <strong>Africa Agility for Data Analysis (2024)</strong> - Africa
-            Agility
-          </li>
-          <li>
-            <strong>Various Courses (2024)</strong> - Coursera
-          </li>
-        </ul>
+    <div className="education-page">
+      <section id="education" className="container py-5">
+        <h2>Education & Certifications</h2>
+        
+        <div className="education-grid">
+          {/* Degree */}
+          <div className="education-item">
+            <div className="edu-header">
+              <span className="edu-date">2022 - Present</span>
+              <h3>BSc. Economics</h3>
+            </div>
+            <p className="edu-institution">Jomo Kenyatta University of Agriculture and Technology</p>
+          </div>
+
+          {/* SheCodes */}
+          <div className="education-item">
+            <div className="edu-header">
+              <span className="edu-date">2024</span>
+              <h3>Front-End Developer Diploma</h3>
+            </div>
+            <p className="edu-institution">SheCodes</p>
+            <p className="edu-details">React.js, JavaScript (ES6+), and Responsive Web Development</p>
+          </div>
+
+          {/* ALX */}
+          <div className="education-item">
+            <div className="edu-header">
+              <span className="edu-date">2024</span>
+              <h3>AICE Program</h3>
+            </div>
+            <p className="edu-institution">ALX</p>
+            <p className="edu-details">Focusing on Creativity, AI tools, and digital productivity</p>
+          </div>
+        </div>
       </section>
     </div>
   );

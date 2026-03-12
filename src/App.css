@@ -1,0 +1,69 @@
+/* Interests.css */
+
+:root {
+  --primary-blue: #0d6efd;
+  --dark-slate: #343a40;
+  --light-gray: #f8f9fa;
+  --text-color: #333333;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+  background-color: #ffffff;
+}
+
+.name-title {
+  color: var(--dark-slate);
+  letter-spacing: -2px;
+}
+
+/* Custom CV Button */
+.btn-cv {
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 12px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(13, 110, 253, 0.2);
+}
+
+.btn-cv:hover {
+  background-color: var(--dark-slate);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Global Section Styling */
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--dark-slate);
+}
+
+/* Footer Overrides */
+.footer-section {
+  background-color: var(--dark-slate);
+  padding: 3rem 0;
+  margin-top: 5rem;
+}
+
+.footer-section p {
+  color: #adb5bd;
+  margin-bottom: 0;
+}
+
+.footer-section a {
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.footer-section a:hover {
+  color: var(--primary-blue);
+}

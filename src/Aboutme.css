@@ -1,0 +1,45 @@
+/* Interests.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #333;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #007bff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #007bff;
+}
+
+#about strong {
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #about h2 {
+    font-size: 2rem;
+  }
+  
+  #about p {
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+}

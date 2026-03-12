@@ -1,0 +1,86 @@
+/* ContactMe.css */
+
+#contact {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  margin-bottom: 2.5rem;
+}
+
+/* Styling the Contact List */
+#contact ul {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 15px;
+  list-style: none;
+  margin-bottom: 3rem;
+  border-left: 5px solid #0d6efd;
+}
+
+#contact li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+#contact li strong {
+  color: #343a40;
+  width: 100px;
+  display: inline-block;
+}
+
+#contact li a {
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+#contact li a:hover {
+  text-decoration: underline;
+}
+
+/* Styling the Form */
+#contact h3 {
+  margin-bottom: 1.5rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.form-control {
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+/* Focus effect for inputs */
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.15);
+  outline: none;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+/* Submit Button Override */
+#contact .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  padding: 10px 30px;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#contact .btn-primary:hover {
+  background-color: #343a40;
+  transform: translateY(-2px);
+}
