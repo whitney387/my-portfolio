@@ -14,7 +14,7 @@ export default function AboutMe() {
         <br /><br />
 
         I focus on learning modern front-end technologies, improving user
-        experience, and developing practical web solutions.<br/> I am eager to
+        experience, and developing practical web solutions.I am eager to
         contribute my growing technical skills, analytical background, and
         willingness to learn in a professional development environment.
       </p>
